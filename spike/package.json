@@ -1,0 +1,23 @@
+{
+  "name": "migra-ads-spike",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Fase 0 do Migra Ads: scripts para validar a API da Meta antes de construir o app",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "login": "tsx src/login.ts",
+    "token": "tsx src/token.ts",
+    "accounts": "tsx src/accounts.ts",
+    "read": "tsx src/read-tree.ts",
+    "typecheck": "tsc --noEmit",
+    "recreate": "tsx src/recreate.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

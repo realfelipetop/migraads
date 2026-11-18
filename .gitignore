@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+.pnp
+.pnp.*
+
+# Next.js / build
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Testes
+coverage/
+playwright-report/
+test-results/
+
+# Segredos e dados locais — NUNCA versionar
+.env
+.env.*
+!.env.example
+data/
+spike/data/
+*.pem
+
+# Sistema
+.DS_Store
+Thumbs.db
+npm-debug.log*
